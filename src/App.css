@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+}
+input {
+  border: 2px solid grey;
+  border-radius: 4px;
+  padding: 4px;
+  margin-bottom: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h5 {
+  text-decoration: underline;
+}
+input,
+select {
+  margin-left: 15px;
+}
+label {
+  margin-left: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.submitt {
+  background-color: #4caf50; /* Green */
+  border: none;
   color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px;
 }
-
-.App-link {
-  color: #61dafb;
+.reset {
+  background-color: white;
+  border: solid 1px red;
+  color: red;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+form {
+  margin-top: 80px;
+  border: solid 1px gray;
+  padding: 20px;
+  margin-left: 20px;
+}
+.name {
+  width: 25%;
+}
+.govttId,
+.add {
+  width: 15%;
+}
+.details {
+  font-size: 2rem;
+  position: relative;
+  top: 55px;
+  left: 18px;
+  text-decoration: underline;
+}
+.home {
+  font-size: 1.5rem;
+  position: relative;
+  top: 25px;
+  left: 18px;
+  text-decoration: underline;
+}
+.tb {
+  border: solid 2px gray;
+  margin-top: 50px;
 }
