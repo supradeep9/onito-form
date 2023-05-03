@@ -19,7 +19,18 @@ select {
 label {
   margin-left: 15px;
 }
-
+.lname:after {
+  content: "*";
+  color: red;
+}
+.lage:after {
+  content: "*";
+  color: red;
+}
+.lsex:after {
+  content: "*";
+  color: red;
+}
 .submitt {
   background-color: #4caf50; /* Green */
   border: none;
